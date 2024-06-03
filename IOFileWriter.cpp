@@ -16,4 +16,9 @@ int main() {
     outfile.open(NamaFile + ".txt", ios::out);
 
     cout << ">= menulis File, \'q\' untuk keluar" << endl;
+
+    // unlimeted loop untuk menulis
+    while (true) {
+        cout << "- ";
+    }
 }
